@@ -7,24 +7,55 @@ This project is part of the **Borda Academy 2025 Embedded Systems Developer Assi
 ## 🔶️ Project Structure
 
 ```
-env_sensing_project/
-├── include/                # Header files
-├── src/                    # C source code
-├── report/                 # Datasheets and docs
-├── test/                   # (Optional) Unit tests
-├── ble_advertise.py        # BLE Advertisement via D-Bus
-├── env_sensor              # Compiled C binary
-├── payload.bin             # Binary payload for BLE
-├── Makefile                # Build instructions
-├── flowchart.png           # System architecture
-└── README.md               # You're reading it!
-
-bonus_part/
-├── rtos_bonus.c            # Producer/Consumer threads with sync
-├── slow_consumer.c         # Overflow simulation
-├── circular_buffer.c/h     # Shared buffer logic
-├── buffer_overflow.log     # Overflow logs
-├── Makefile
+2025-Embedded-Systems-Developer-Assignment/
+└── borda_assignment/
+    └── borda_project/
+        ├── bonus_part/
+        │   ├── rtos_bonus.c
+        │   ├── slow_consumer.c
+        │   ├── circular_buffer.c/h
+        │   ├── buffer_overflow.log
+        │   ├── Makefile
+        │   └── README.md
+        │
+        └── env_sensing_project/
+            ├── include/
+            │   ├── ble_payload.h
+            │   ├── bme280.h
+            │   ├── circular_buffer.h
+            │   ├── i2c_interface.h
+            │   ├── median_filter.h
+            │   └── stats.h
+            │
+            ├── src/
+            │   ├── ble_payload.c
+            │   ├── bme280.c
+            │   ├── circular_buffer.c
+            │   ├── i2c_interface.c
+            │   ├── median_filter.c
+            │   ├── stats.c
+            │   └── main.c
+            │
+            ├── report/
+            │   └── datasheets/
+            │       ├── BME280_datasheet.pdf
+            │       ├── sensor2_datasheet.pdf
+            │       ├── sensor3_datasheet.pdf
+            │       ├── 2_c.png
+            │       ├── 2_c_log.png
+            │       ├── 2_a_i.png
+            │       ├── 2_a_ii.png
+            │       ├── 2025-04-05_21-04.png
+            │       ├── 2025-04-05_21-05.png
+            │       ├── Environmental_Sensing_System_BLE_Advertisement_Flow.png
+            │       └── RTOS_Based_Sensor_Data_Handling_with_Producer_Consumer_Threads.png
+            │
+            ├── test/ (şimdilik boş)
+            ├── ble_advertise.py
+            ├── env_sensor
+            ├── Makefile
+            ├── payload.bin
+            └── report.pdf
 ```
 
 ---
