@@ -47,7 +47,7 @@ bonus_part/
 | Sensor        | Type              | I²C Address | Status         |
 |---------------|-------------------|-------------|----------------|
 | BME280        | Temperature        | `0x76`      | Physical       |
-| Simulated Hum | Humidity           | `Simulated`      | Simulated      |
+| Simulated Hum | Humidity           | `0x76`      | Simulated (Shared Address) |
 | Simulated CO₂ | CO2 Concentration  | `0x5A`      | Simulated      |
 
 📌 Sensor datasheets are provided in `report/datasheets/`.
@@ -104,9 +104,6 @@ sudo ./ble_advertise.py
 | 1–2        | Timestamp (2 bytes, seconds)           |
 | 3–26       | 3 Sensors × 4 stats (std, max, min, med), each 2 bytes |
 
-![WhatsApp Image 2025-04-04 at 15 19 30_7a30c1ee](https://github.com/user-attachments/assets/cb99f62d-8e50-431e-8c40-f3c52180a49f)
-
-
 ---
 
 ## 📁 Bonus Part (Located in `/bonus_part`)
@@ -133,7 +130,7 @@ sudo ./ble_advertise.py
 ```bash
 # Compile and run overflow simulation
 cd bonus_part
-make slow_consumer
+gcc slow_consumer.c circular_buffer.c -o slow_consumer -lpthread
 ./slow_consumer
 
 # View log of dropped data
@@ -146,7 +143,23 @@ cat buffer_overflow.log
 
 ## 📷 Screenshots
 
-> Include terminal outputs and BLE scanner screenshots here (e.g., nRF Connect)
+
+- `2025-04-05_21-04.png` – **Dual-terminal showing BLE and sensor program**
+- `2025-04-05_21-05.png` – **Continued BLE advertisement**
+- 
+- `2_c.png` – **Overflow condition observed in slow_consumer**
+- `2_c_log.png` – **Contents of buffer_overflow.log**
+- `2_a_i.png` – **Producer-Consumer output (RTOS simulation)**
+- `2_a_ii.png` – **Synchronized consumer logging**
+
+```markdown
+![BLE + Sensor Screenshot 1](./2025-04-05_21-04.png)
+![BLE + Sensor Screenshot 2](./2025-04-05_21-05.png)
+![2.c Overflow Screenshot](./2_c.png)
+![2.c Log File](./2_c_log.png)
+![2.a.i Screenshot](./2_a_i.png)
+![2.a.ii Screenshot](./2_a_ii.png)
+```
 
 ---
 
@@ -175,7 +188,7 @@ cat buffer_overflow.log
 
 **Atakan Yaman**  
 Istanbul Technical University  
-Embedded Systems & IoT Enthusiast
+Control & Automation Engineering
 
 ---
 
