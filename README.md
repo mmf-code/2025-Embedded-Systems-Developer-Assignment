@@ -145,16 +145,6 @@ cat buffer_overflow.log
 
 Images are located in: `borda_assignment/borda_project/env_sensing_project/report/datasheets/`
 
-### ⚠️ 2.c — Overflow Scenario (Slow Consumer)
-- **Overflow Screenshot:**
-
-![2.c Overflow Screenshot](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_c.png)
-
-- **Buffer Log File:**
-
-![2.c Log File](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_c_log.png)
-
----
 
 ### 📊 BLE + Sensor Data Output
 - **BLE Screenshot 1:**
@@ -175,6 +165,17 @@ Images are located in: `borda_assignment/borda_project/env_sensing_project/repor
 - **2.a.ii Screenshot:**
 
 ![2.a.ii Screenshot](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_a_ii.png)
+
+---
+
+### ⚠️ 2.c — Overflow Scenario (Slow Consumer)
+- **Overflow Screenshot:**
+
+![2.c Overflow Screenshot](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_c.png)
+
+- **Buffer Log File:**
+
+![2.c Log File](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_c_log.png)
 
 ---
 
