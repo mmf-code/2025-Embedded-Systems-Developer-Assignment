@@ -33,11 +33,13 @@ bonus_part/
 
 Flowchart: RTOS-Based Sensor Data Handling
 
-![RTOS Producer-Consumer Flow](RTOS-Based Sensor Data Handling with Producer-Consumer Threads.png)
+![RTOS Producer-Consumer Flow](borda_assignment/borda_project/env_sensing_project/report/datasheets/RTOS-Based Sensor Data Handling with Producer-Consumer Threads.png)
 
 Flowchart: BLE Sensor Flow
 
-![BLE Sensor Flow](Environmental Sensing System – BLE Advertisement Flow.png)
+![BLE Sensor Flow](borda_assignment/borda_project/env_sensing_project/report/datasheets/Environmental Sensing System – BLE Advertisement Flow.png)
+
+
 
 ## ✅ Features
 
