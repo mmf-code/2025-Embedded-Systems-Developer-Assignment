@@ -153,12 +153,13 @@ cat buffer_overflow.log
 - `2_a_ii.png` – **Synchronized consumer logging**
 
 ```markdown
-![BLE + Sensor Screenshot 1](./2025-04-05_21-04.png)
-![BLE + Sensor Screenshot 2](./2025-04-05_21-05.png)
-![2.c Overflow Screenshot](./2_c.png)
-![2.c Log File](./2_c_log.png)
-![2.a.i Screenshot](./2_a_i.png)
-![2.a.ii Screenshot](./2_a_ii.png)
+![2.c Overflow Screenshot](./report/datasheets/2_c.png)
+![2.c Log File](./report/datasheets/2_c_log.png)
+![BLE + Sensor Screenshot 1](./report/datasheets/2025-04-05_21-04.png)
+![BLE + Sensor Screenshot 2](./report/datasheets/2025-04-05_21-05.png)
+![2.a.i Screenshot](./report/datasheets/2_a_i.png)
+![2.a.ii Screenshot](./report/datasheets/2_a_ii.png)
+
 ```
 
 ---
