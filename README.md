@@ -151,22 +151,10 @@ sudo ./ble_advertise.py
 ### 3. Bluetooth Scanner Output (nRF Connect App)
 
 <p align="center">
+  <img src="./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_rpi_sensor_device.jpg" width="32%" title="BLE Scan - RPI_Sensor">
   <img src="./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_raw_data_1.jpg" width="32%" title="BLE Raw Data View">
   <img src="./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_advertising_log.jpg" width="32%" title="BLE Manufacturer Data Info">
-  <img src="./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_rpi_sensor_device.jpg" width="32%" title="BLE Scan - RPI_Sensor">
 </p>
-
-📡 BLE Advertising Data captured via smartphone:
-
-![BLE Raw Advertisement Data](./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_raw_data_1.jpg)
-
-🧭 Advertisement Timing & RSSI Logs:
-
-![BLE Advertisement Log](./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_advertising_log.jpg)
-
-📱 Device Found as RPI_Sensor:
-
-![BLE Advertisement - RPI_Sensor Device](./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_rpi_sensor_device.jpg)
 
 ---
 
