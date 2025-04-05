@@ -16,7 +16,7 @@ This project is part of the **Borda Academy 2025 Embedded Systems Developer Assi
         │   ├── circular_buffer.c/h
         │   ├── buffer_overflow.log
         │   ├── Makefile
-        │   └── README.md
+        │   
         │
         └── env_sensing_project/
             ├── include/
@@ -50,7 +50,6 @@ This project is part of the **Borda Academy 2025 Embedded Systems Developer Assi
             │       ├── Environmental_Sensing_System_BLE_Advertisement_Flow.png
             │       └── RTOS_Based_Sensor_Data_Handling_with_Producer_Consumer_Threads.png
             │
-            ├── test/ (şimdilik boş)
             ├── ble_advertise.py
             ├── env_sensor
             ├── Makefile
