@@ -104,6 +104,9 @@ sudo ./ble_advertise.py
 | 1–2        | Timestamp (2 bytes, seconds)           |
 | 3–26       | 3 Sensors × 4 stats (std, max, min, med), each 2 bytes |
 
+![WhatsApp Image 2025-04-04 at 15 19 30_7a30c1ee](https://github.com/user-attachments/assets/cb99f62d-8e50-431e-8c40-f3c52180a49f)
+
+
 ---
 
 ## 📁 Bonus Part (Located in `/bonus_part`)
