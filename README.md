@@ -4,7 +4,7 @@ This project is part of the **Borda Academy 2025 Embedded Systems Developer Assi
 
 ---
 
-## 🗶️ Project Structure
+## 🔶️ Project Structure
 
 ```
 env_sensing_project/
@@ -143,14 +143,38 @@ cat buffer_overflow.log
 
 ## 📷 Screenshots
 
-> Images are located in: `report/datasheets/`
+Images are located in: `borda_assignment/borda_project/env_sensing_project/report/datasheets/`
+
+### ⚠️ 2.c — Overflow Scenario (Slow Consumer)
+- **Overflow Screenshot:**
 
 ![2.c Overflow Screenshot](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_c.png)
-![2.c Log File](report/datasheets/2_c_log.png)
-![BLE + Sensor Screenshot 1](report/datasheets/2025-04-05_21-04.png)
-![BLE + Sensor Screenshot 2](report/datasheets/2025-04-05_21-05.png)
-![2.a.i Screenshot](report/datasheets/2_a_i.png)
-![2.a.ii Screenshot](report/datasheets/2_a_ii.png)
+
+- **Buffer Log File:**
+
+![2.c Log File](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_c_log.png)
+
+---
+
+### 📊 BLE + Sensor Data Output
+- **BLE Screenshot 1:**
+
+![BLE + Sensor Screenshot 1](borda_assignment/borda_project/env_sensing_project/report/datasheets/2025-04-05_21-04.png)
+
+- **BLE Screenshot 2:**
+
+![BLE + Sensor Screenshot 2](borda_assignment/borda_project/env_sensing_project/report/datasheets/2025-04-05_21-05.png)
+
+---
+
+### 🫕 2.a — Producer & Consumer Threads
+- **2.a.i Screenshot:**
+
+![2.a.i Screenshot](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_a_i.png)
+
+- **2.a.ii Screenshot:**
+
+![2.a.ii Screenshot](borda_assignment/borda_project/env_sensing_project/report/datasheets/2_a_ii.png)
 
 ---
 
@@ -206,4 +230,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
