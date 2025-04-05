@@ -49,6 +49,10 @@ This project is part of the **Borda Academy 2025 Embedded Systems Developer Assi
             │       ├── 2025-04-05_21-05.png
             │       ├── Environmental_Sensing_System_BLE_Advertisement_Flow.png
             │       └── RTOS_Based_Sensor_Data_Handling_with_Producer_Consumer_Threads.png
+            │       └── ble_advertising_log.jpg
+            │       └── ble_raw_data_1.jpg
+            │       └── ble_rpi_sensor_device.jpg
+            │
             │
             ├── ble_advertise.py
             ├── env_sensor
