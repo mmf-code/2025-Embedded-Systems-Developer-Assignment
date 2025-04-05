@@ -148,6 +148,22 @@ sudo ./ble_advertise.py
 
 ---
 
+### Bluetooth Scanner Output (nRF Connect App)
+
+📡 BLE Advertising Data captured via smartphone:
+
+![BLE Raw Advertisement Data](./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_raw_data_1.jpg)
+
+🧭 Advertisement Timing & RSSI Logs:
+
+![BLE Advertisement Log](./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_advertising_log.jpg)
+
+📱 Device Found as RPI_Sensor:
+
+![BLE Advertisement - RPI_Sensor Device](./borda_assignment/borda_project/env_sensing_project/report/datasheets/ble_rpi_sensor_device.jpg)
+
+---
+
 ## 📁 Bonus Part (Located in `/bonus_part`)
 
 ### 🫕 2.a – RTOS-like Producer/Consumer Threads
