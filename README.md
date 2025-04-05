@@ -260,7 +260,7 @@ Images are located in: `borda_assignment/borda_project/env_sensing_project/repor
 
 **Atakan Yaman**  
 Istanbul Technical University  
-Embedded Systems & IoT Enthusiast
+Control and Automation Engineering
 
 ---
 
