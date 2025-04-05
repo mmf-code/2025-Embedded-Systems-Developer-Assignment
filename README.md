@@ -47,7 +47,7 @@ bonus_part/
 | Sensor        | Type              | I²C Address | Status         |
 |---------------|-------------------|-------------|----------------|
 | BME280        | Temperature        | `0x76`      | Physical       |
-| Simulated Hum | Humidity           | `0x76`      | Simulated      |
+| Simulated Hum | Humidity           | `Simulated`      | Simulated      |
 | Simulated CO₂ | CO2 Concentration  | `0x5A`      | Simulated      |
 
 📌 Sensor datasheets are provided in `report/datasheets/`.
