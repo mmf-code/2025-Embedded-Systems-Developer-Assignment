@@ -29,6 +29,16 @@ bonus_part/
 
 ---
 
+🧭 System Flowcharts
+
+Flowchart: RTOS-Based Sensor Data Handling
+
+![RTOS Producer-Consumer Flow](RTOS-Based Sensor Data Handling with Producer-Consumer Threads.png)
+
+Flowchart: BLE Sensor Flow
+
+![BLE Sensor Flow](Environmental Sensing System – BLE Advertisement Flow.png)
+
 ## ✅ Features
 
 - ✅ I²C communication with 3 environmental sensors  
